@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 # Route for home page
 @app.route("/")
-def home():
+def index():
     return render_template('index.html')
 
 # --- Caesar Cipher Routes ---
